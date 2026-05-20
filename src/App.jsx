@@ -191,11 +191,8 @@ function IntroSequence({ images }) {
         </div>
 
         <div className="intro-title">
-          <p className="eyebrow">Instalação interativa · arquivo cerâmico</p>
+          <p className="eyebrow">Sistema interativo</p>
           <h1>XEQUE-MATE</h1>
-          <p>
-            Uma instalação interativa sobre política, poder e opinião pública.
-          </p>
         </div>
 
         <div className="intro-caption" aria-hidden="true">
