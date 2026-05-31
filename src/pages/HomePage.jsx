@@ -2,16 +2,8 @@ import { useEffect, useMemo } from 'react';
 import Footer from '../components/Footer.jsx';
 import Header from '../components/Header.jsx';
 import IntroSequence from '../components/IntroSequence.jsx';
-import PawnGallery from '../components/PawnGallery.jsx';
 import Section from '../components/Section.jsx';
-import {
-  aseguroPawnInfo,
-  kimPawnInfo,
-  putinPawnInfo,
-  trumpPawnInfo,
-} from '../data/pawns.js';
 import { frameNumber } from '../utils/frames.js';
-import placeholderPawnImage from '../../picture/imagem_branca.png';
 import argentinaFlag from '../../bandeira/argentina.png';
 import brazilFlag from '../../bandeira/brazil.png';
 import canadaFlag from '../../bandeira/canada.png';
@@ -55,39 +47,6 @@ const sequenceImages = Object.entries(imageModules)
     label: `Frame ${String(index).padStart(2, '0')}`,
     file: path.split('/').pop(),
   }));
-
-const trumpPawn = {
-  id: 'trump',
-  name: 'TRUMP',
-  front: placeholderPawnImage,
-  back: placeholderPawnImage,
-  pageUrl: '?page=trump',
-  ...trumpPawnInfo,
-};
-
-const putinPawn = {
-  id: 'putin',
-  name: 'PUTIN',
-  front: placeholderPawnImage,
-  back: placeholderPawnImage,
-  ...putinPawnInfo,
-};
-
-const kimPawn = {
-  id: 'kim',
-  name: 'KIM',
-  front: placeholderPawnImage,
-  back: placeholderPawnImage,
-  ...kimPawnInfo,
-};
-
-const aseguroPawn = {
-  id: 'aseguro',
-  name: 'ASEGURO',
-  front: placeholderPawnImage,
-  back: placeholderPawnImage,
-  ...aseguroPawnInfo,
-};
 
 const politicalNames = [
   { name: 'André Ventura', flag: portugalFlag },
@@ -238,13 +197,6 @@ function HomePage() {
               ))}
             </div>
           </Section>
-
-          {/* <PawnGallery
-            trumpPawn={trumpPawn}
-            putinPawn={putinPawn}
-            kimPawn={kimPawn}
-            aseguroPawn={aseguroPawn}
-          /> */}
 
           <Section
             id="manual"

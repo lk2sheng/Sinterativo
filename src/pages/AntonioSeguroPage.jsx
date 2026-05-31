@@ -1,8 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
-import usaFlag from '../../bandeira/usa.png';
+import flag from '../../bandeira/portugal.png';
 
-function TrumpPage() {
+function AntonioSeguroPage() {
   return (
     <>
       <header className="person-header">
@@ -21,10 +21,10 @@ function TrumpPage() {
         <section
           className="person-hero person-hero-flag"
           id="top"
-          style={{ '--person-flag-image': `url(${usaFlag})` }}
+          style={{ '--person-flag-image': `url(${flag})` }}
         >
-          <p className="eyebrow">United States of America</p>
-          <h1>Donald Trump</h1>
+          <p className="eyebrow">Portuguese Republic</p>
+          <h1>Antonio Seguro</h1>
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
@@ -55,7 +55,7 @@ function TrumpPage() {
             <p className="eyebrow">Quem sou eu?</p>
             <h2>Descricao da peca</h2>
             <p>
-              Donald Trump é presidente dos Estados Unidos desde 2025, pelo Partido Republicano, um partido de direita. Teve um primeiro mandato de 2017 a 2021, tornando-se o único presidente americano eleito em dois mandatos não consecutivos.
+                António Seguro é Presidente da República Portuguesa desde 2026. Foi secretário-geral do Partido Socialista, um partido de centro-esquerda, de 2011 a 2014, tendo regressado à política em 2025 para se candidatar às presidenciais.
             </p>
           </div>
         </section>
@@ -65,11 +65,11 @@ function TrumpPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="https://www.britannica.com/biography/Donald-Trump" target="_blank" rel="noreferrer">
-                Contexto historico
+              <a href="" target="_blank" rel="noreferrer">
+                link 1
               </a>
-              <a href="https://www.whitehouse.gov/administration/donald-j-trump/" target="_blank" rel="noreferrer">
-                Presidencia
+              <a href="" target="_blank" rel="noreferrer">
+                link 2
               </a>
             </div>
 
@@ -82,4 +82,4 @@ function TrumpPage() {
   );
 }
 
-export default TrumpPage;
+export default AntonioSeguroPage;

@@ -98,6 +98,23 @@ img {
   opacity: 1;
 }
 
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  border-radius: 0;
+  opacity: 1 !important;
+}
+
+.back-link::before {
+  content: "<";
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
 .intro-sequence {
   --scroll-progress: 0;
   position: relative;
@@ -496,122 +513,11 @@ h2 {
   padding-top: 0.6rem;
 }
 
-.pawn-gallery {
-  display: grid;
-  grid-template-columns: minmax(3rem, 8vw) minmax(0, 1fr);
-  gap: clamp(1rem, 4vw, 4rem);
-  padding: clamp(6rem, 11vw, 11rem) clamp(1rem, 5vw, 5rem);
-  border-bottom: 1px solid var(--line);
-}
-
-.pawn-gallery-body {
-  display: grid;
-  gap: clamp(2.5rem, 5vw, 5rem);
-  width: 100%;
-  max-width: 76rem;
-  margin: 0 auto;
-}
-
-.pawn-gallery-head {
-  max-width: 74rem;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.pawn-gallery-head h2 {
-  max-width: 13ch;
-  margin: 0 auto;
-}
-
-.pawn-gallery-head > p:last-child {
-  max-width: 48rem;
-  margin: 2rem auto 0;
-  color: var(--ceramic);
-  font-size: clamp(1.12rem, 1.65vw, 1.38rem);
-  line-height: 1.78;
-  text-align: left;
-}
-
-.pawn-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(1rem, 2vw, 1.6rem);
-}
-
-.pawn-card {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  min-height: 100%;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.025);
-}
-
-.pawn-images {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1px;
-  background: var(--line);
-}
-
-.pawn-images figure {
-  display: grid;
-  grid-template-rows: minmax(15rem, 22vw) auto;
-  margin: 0;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent),
-    #141414;
-}
-
-.pawn-images img {
-  width: 100%;
-  height: 100%;
-  padding: clamp(0.6rem, 1.8vw, 1.2rem);
-  object-fit: contain;
-}
-
-.pawn-images figcaption,
-.source-link,
-.pawn-name {
+.source-link {
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-}
-
-.pawn-images figcaption {
-  padding: 0.75rem 1rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-}
-
-.pawn-copy {
-  display: grid;
-  align-content: start;
-  gap: 1rem;
-  padding: clamp(1rem, 2.4vw, 1.6rem);
-}
-
-.pawn-name {
-  margin: 0;
-  color: var(--muted);
-}
-
-.pawn-copy h3 {
-  margin: 0;
-  color: var(--white);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.45rem, 2.6vw, 2.4rem);
-  font-weight: 400;
-  line-height: 1.08;
-}
-
-.pawn-copy p {
-  margin: 0;
-  color: var(--ceramic);
-  font-size: 1rem;
-  line-height: 1.72;
 }
 
 .source-link {
@@ -625,22 +531,6 @@ h2 {
 
 .source-link:hover {
   color: var(--white);
-}
-
-.pawn-page-link {
-  width: fit-content;
-  padding: 0.72rem 0.9rem;
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  color: var(--white);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.pawn-page-link:hover {
-  border-color: var(--white);
 }
 
 .fact-list {
@@ -1064,10 +954,38 @@ h2 {
 }
 
 .person-hero {
+  position: relative;
+  isolation: isolate;
   display: grid;
   gap: 1.1rem;
-  padding: clamp(5rem, 10vw, 9rem) clamp(1rem, 5vw, 5rem) clamp(2rem, 5vw, 4rem);
+  min-height: clamp(28rem, 68svh, 46rem);
+  align-content: center;
+  padding: clamp(6rem, 12vw, 10rem) clamp(1rem, 5vw, 5rem) clamp(4rem, 8vw, 7rem);
   border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.person-hero-flag::before {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  content: "";
+  background-image: var(--person-flag-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  filter: grayscale(0.25) contrast(1.05);
+  opacity: 0.58;
+}
+
+.person-hero-flag::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background:
+    linear-gradient(90deg, rgba(5, 5, 5, 0.68), rgba(5, 5, 5, 0.34) 48%, rgba(5, 5, 5, 0.6)),
+    linear-gradient(180deg, rgba(5, 5, 5, 0.44), rgba(5, 5, 5, 0.2) 48%, rgba(5, 5, 5, 0.58));
 }
 
 .person-hero h1 {
@@ -1093,10 +1011,6 @@ h2 {
   border: 1px solid var(--line-strong);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.025);
-}
-
-.person-figure-large {
-  grid-template-rows: minmax(18rem, 28vw) auto;
 }
 
 .person-figure img {
@@ -1252,10 +1166,6 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .pawn-gallery {
-    grid-template-columns: 1fr;
-  }
-
   .section-index {
     writing-mode: initial;
   }
@@ -1276,14 +1186,6 @@ h2 {
   .fact-list div {
     gap: 0.8rem;
     padding: 0.9rem 0;
-  }
-
-  .pawn-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .pawn-gallery-head > p:last-child {
-    margin-left: auto;
   }
 
   .person-header {
@@ -1354,13 +1256,6 @@ h2 {
     gap: 0.8rem;
   }
 
-  .pawn-images {
-    grid-template-columns: 1fr;
-  }
-
-  .pawn-images figure {
-    grid-template-rows: minmax(13rem, 64vw) auto;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

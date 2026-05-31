@@ -1,5 +1,6 @@
 import Footer from '../components/Footer.jsx';
-import placeholderPawnImage from '../../picture/imagem_branca.png';
+import placeholderFigureImage from '../../picture/imagem_branca.png';
+import flag from '../../bandeira/portugal.png';
 
 function AndreVenturaPage() {
   return (
@@ -9,37 +10,41 @@ function AndreVenturaPage() {
           XEQUE-MATE
         </a>
         <nav className="nav-links">
-          <a href="./">Inicio</a>
+          <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Biografia</a>
-          <a href="#links">Links</a>
+          <a href="#biografia">Descrição</a>
+          <a href="#links">Mais</a>
         </nav>
       </header>
 
       <main className="person-page">
-        <section className="person-hero" id="top">
-          <p className="eyebrow">Peca politica</p>
-          <h1>André Ventura</h1>
+        <section
+          className="person-hero person-hero-flag"
+          id="top"
+          style={{ '--person-flag-image': `url(${flag})` }}
+        >
+          <p className="eyebrow">Portuguese Republic</p>
+          <h1>Andre Ventura</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca André Ventura">
-          <figure className="person-figure person-figure-large">
-            <img src={placeholderPawnImage} alt="Figura frente da peca André Ventura" />
+        <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
+          <figure className="person-figure">
+            <img src={placeholderFigureImage} alt="Figura frente da peca Trump" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderPawnImage} alt="Figura lado esquerdo da peca André Ventura" />
+            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Trump" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
 
-          <figure className="person-figure person-figure-large">
-            <img src={placeholderPawnImage} alt="Figura traseira da peca André Ventura" />
+          <figure className="person-figure">
+            <img src={placeholderFigureImage} alt="Figura traseira da peca Trump" />
             <figcaption>Fig3 : traseira da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderPawnImage} alt="Figura lado direito da peca André Ventura" />
+            <img src={placeholderFigureImage} alt="Figura lado direito da peca Trump" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>
@@ -49,7 +54,9 @@ function AndreVenturaPage() {
           <div>
             <p className="eyebrow">Quem sou eu?</p>
             <h2>Descricao da peca</h2>
-            <p>descricao da pessoa</p>
+            <p>
+              André Ventura é o fundador e presidente do Chega desde 2019, um partido de extrema-direita. Nas eleições de 2025 tornou-se a segunda maior força política do parlamento.
+            </p>
           </div>
         </section>
 
@@ -58,24 +65,14 @@ function AndreVenturaPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="#" target="_blank" rel="noreferrer">Contexto historico</a>
-              <a href="#" target="_blank" rel="noreferrer">Presidencia</a>
+              <a href="" target="_blank" rel="noreferrer">
+                link 1
+              </a>
+              <a href="" target="_blank" rel="noreferrer">
+                link 2
+              </a>
             </div>
 
-            <div className="person-note-grid">
-              <article>
-                <span>27 pecas</span>
-                <p>Espaco reservado para organizar as pecas associadas a esta figura.</p>
-              </article>
-              <article>
-                <span>10 eleicoes</span>
-                <p>Area para referencias politicas, eventos e momentos eleitorais.</p>
-              </article>
-              <article>
-                <span>Restantes modelos</span>
-                <p>Campo para guardar versoes futuras, testes visuais e variacoes.</p>
-              </article>
-            </div>
           </div>
         </section>
       </main>
