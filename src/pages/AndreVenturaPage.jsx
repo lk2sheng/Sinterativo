@@ -55,7 +55,7 @@ function AndreVenturaPage() {
             <p className="eyebrow">Quem sou eu?</p>
             <h2>Descricao da peca</h2>
             <p>
-              André Ventura é o fundador e presidente do Chega desde 2019, um partido de extrema-direita. Nas eleições de 2025 tornou-se a segunda maior força política do parlamento.
+              André Ventura é o fundador e presidente do Chega desde 2019, um partido de extrema-direita. Nas eleições legislativas de 2025 tornou-se a segunda maior força política do parlamento. Foi candidato às presidenciais de 2025 onde ficou em segundo lugar.
             </p>
           </div>
         </section>
