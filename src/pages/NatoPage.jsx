@@ -19,7 +19,7 @@ function NatoPage() {
 
       <main className="person-page">
         <section className="person-hero person-hero-flag" id="top" style={{ '--person-flag-image': `url(${flag})` }}>
-          <p className="eyebrow">North Atlantic Treaty Organization</p>
+          <p className="eyebrow">North Atlantic Treaty Organization(NATO)</p>
           <h1>NATO/OTAN</h1>
         </section>
 
