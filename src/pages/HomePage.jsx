@@ -119,6 +119,34 @@ const speakerQuotes = [
   },
 ];
 
+const teamMembers = [
+  {
+    name: 'Afonso Paulo',
+    number: 'FC62238',
+    school: 'Faculdade de Ciencias',
+  },
+  {
+    name: 'Kaisheng Li',
+    number: 'FC60284',
+    school: 'Faculdade de Ciencias',
+  },
+  {
+    name: 'Francisca Silva',
+    number: 'nº15411',
+    school: 'Faculdade de Belas Artes',
+  },
+  {
+    name: 'Madalena Pereira',
+    number: 'nº15589',
+    school: 'Faculdade de Belas Artes',
+  },
+  {
+    name: 'Marte Costa',
+    number: 'nº15584',
+    school: 'Faculdade de Belas Artes',
+  },
+];
+
 function HomePage() {
   const images = useMemo(() => sequenceImages, []);
 
@@ -247,6 +275,19 @@ function HomePage() {
               que queremos mostrar, etc
             </p>
           </Section>
+
+          <section className="team-block reveal" aria-label="Sobre o grupo">
+            <h2>Sobre o grupo</h2>
+            <ol className="team-list">
+              {teamMembers.map(({ name, number, school }) => (
+                <li key={number}>
+                  <span>{name}</span>
+                  <small>{number}</small>
+                  <em>{school}</em>
+                </li>
+              ))}
+            </ol>
+          </section>
         </div>
       </main>
       <Footer />

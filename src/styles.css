@@ -891,6 +891,59 @@ h2 {
   background: #ffffff;
 }
 
+.team-block {
+  width: min(100% - clamp(2rem, 10vw, 10rem), 76rem);
+  margin: clamp(3rem, 6vw, 5rem) auto clamp(6rem, 10vw, 9rem);
+  padding-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--line-strong);
+}
+
+.team-block h2 {
+  margin: 0 0 clamp(1.5rem, 3vw, 2rem);
+  color: var(--white);
+  font-size: clamp(2.25rem, 4.8vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.team-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.team-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.4rem 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.team-list span {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.team-list small {
+  color: var(--ivory);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.team-list em {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.35;
+}
+
 @media (max-width: 900px) {
   #interacao .interaction-grid {
     grid-template-columns: 1fr;
@@ -1209,6 +1262,15 @@ h2 {
   .person-link-grid,
   .person-note-grid {
     grid-template-columns: 1fr;
+  }
+
+  .team-list li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .team-list em {
+    grid-column: auto;
   }
 }
 
