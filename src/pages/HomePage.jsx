@@ -204,7 +204,7 @@ function HomePage() {
           >
           </Section>
 
-          <Section
+          {/* <Section
             id="frases"
             title="Frases dos peoes"
           >
@@ -224,13 +224,44 @@ function HomePage() {
                 </article>
               ))}
             </div>
-          </Section>
+          </Section> */}
 
           <Section
             id="manual"
             title="Como Jogar"
           >
-           
+            <div className="manual-instructions">
+              <ol>
+                <li>
+                  <p>
+                    Coloca no tabuleiro as peças ao qual atribuis a maior
+                    relevância consoante a tua visão política pessoal. A
+                    quantidade de peças que usares está inteiramente à tua
+                    liberdade, dando-te a possibilidade de escolher o que mais
+                    se adequa à tua opinião!
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    Após teres escolhido as peças, deves dispô-las no
+                    tabuleiro consoante o nível de importância que lhes
+                    atribuis, sendo a linha da frente a que corresponde à
+                    maior importância e a detrás à de menor.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    Por fim, terás a possibilidade de registar a tua versão do
+                    tabuleiro através de uma fotografia analógica que, a
+                    seguir a tirares, colocas no quadro de cortiça disposto
+                    ao lado do mesmo, para partilhar a tua opinião, com a
+                    possibilidade de o fazeres anonimamente.
+                  </p>
+                </li>
+              </ol>
+            </div>
           </Section>
 
           <Section

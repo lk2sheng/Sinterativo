@@ -6,7 +6,7 @@ function Header() {
       </a>
       <nav className="nav-links">
         <a href="#peoes">Peoes</a>
-        <a href="#frases">Frases</a>
+        {/* <a href="#frases">Frases</a> */}
         <a href="#manual">Manual</a>
         <a href="#interacao">Interacao</a>
         <a href="#exposicao">Exposicao</a>
