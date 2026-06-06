@@ -4,6 +4,7 @@ import Header from '../components/Header.jsx';
 import IntroSequence from '../components/IntroSequence.jsx';
 import Section from '../components/Section.jsx';
 import { frameNumber } from '../utils/frames.js';
+import experiencePhoto from '../../picture/fototabExperiencia.png';
 import argentinaFlag from '../../bandeira/argentina.png';
 import brazilFlag from '../../bandeira/brazil.png';
 import canadaFlag from '../../bandeira/canada.png';
@@ -266,7 +267,7 @@ function HomePage() {
             <div className="interaction-grid">
               <div className="interaction-photo">
                 <img
-                  src="../../picture/fototabExperiencia.png"
+                  src={experiencePhoto}
                   alt="Fotografias dos participantes"
                 />
               </div>
