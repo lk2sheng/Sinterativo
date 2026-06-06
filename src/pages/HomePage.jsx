@@ -235,24 +235,24 @@ function HomePage() {
                 <li>
                   <span>Escolhe</span>
                   <p>
-                    Seleciona as pecas que consideras mais relevantes para a tua
-                    visao politica.
+                    Seleciona as peças que consideras mais relevantes para a tua
+                    visão política.
                   </p>
                 </li>
 
                 <li>
                   <span>Posiciona</span>
                   <p>
-                    Organiza-as no tabuleiro por importancia: mais importantes
-                    na frente, menos importantes atras.
+                    Organiza-as no tabuleiro por importância: mais importantes
+                    na frente, menos importantes atrás.
                   </p>
                 </li>
 
                 <li>
                   <span>Regista</span>
                   <p>
-                    Fotografa a tua versao e coloca-a no quadro para partilhar a
-                    tua opiniao, mesmo anonimamente.
+                    Fotografa a tua versão e coloca-a no quadro para partilhar a
+                    tua opinião, mesmo anonimamente.
                   </p>
                 </li>
               </ol>
