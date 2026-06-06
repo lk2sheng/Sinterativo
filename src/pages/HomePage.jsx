@@ -296,7 +296,7 @@ function HomePage() {
             </div>
           </Section>
 
-          <Section
+          {/* <Section
             id="exposicao"
             title="data local etc da exposicao"
             aside={<p className="aside-note">SALA EXEMPLO</p>}
@@ -305,7 +305,7 @@ function HomePage() {
               explicar como o fizemos ou como pretendemos fazer a exposicao, o
               que queremos mostrar, etc
             </p>
-          </Section>
+          </Section> */}
 
           <section className="team-block reveal" aria-label="Sobre o grupo">
             <h2>Sobre o grupo</h2>
