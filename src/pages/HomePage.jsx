@@ -285,8 +285,11 @@ function HomePage() {
                   rel="noreferrer"
                   className="btn"
                 >
-                  Ver vídeo (ainda nao disponivel)
+                  Ver vídeo
                 </a>
+                <p>
+                  (Ainda nao disponivel)
+                </p>
               </div>
             </div>
           </Section>
