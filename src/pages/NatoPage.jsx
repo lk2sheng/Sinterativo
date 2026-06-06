@@ -15,7 +15,7 @@ function NatoPage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -26,22 +26,22 @@ function NatoPage() {
           <h1>NATO/OTAN</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca NATO/OTAN">
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça NATO/OTAN">
           <figure className="person-figure">
-            <img src={imgFrente} alt="Figura frente da peca NATO/OTAN" />
-            <figcaption>Fig1 : frente da peca</figcaption>
+            <img src={imgFrente} alt="Figura frente da peça NATO/OTAN" />
+            <figcaption>Fig1 : frente da peça</figcaption>
           </figure>
           <figure className="person-figure">
-            <img src={imgEsquerda} alt="Figura lado esquerdo da peca NATO/OTAN" />
-            <figcaption>Fig2 : lado esquerdo da peca</figcaption>
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peça NATO/OTAN" />
+            <figcaption>Fig2 : lado esquerdo da peça</figcaption>
           </figure>
           {/* <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca NATO/OTAN" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
+            <img src={placeholderFigureImage} alt="Figura traseira da peça NATO/OTAN" />
+            <figcaption>Fig3 : traseira da peça</figcaption>
           </figure> */}
           <figure className="person-figure">
-            <img src={imgDireita} alt="Figura lado direito da peca NATO/OTAN" />
-            <figcaption>Fig4 : lado direito da peca</figcaption>
+            <img src={imgDireita} alt="Figura lado direito da peça NATO/OTAN" />
+            <figcaption>Fig4 : lado direito da peça</figcaption>
           </figure>
         </section>
 
@@ -49,7 +49,7 @@ function NatoPage() {
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               A NATO é a principal aliança militar ocidental, fundada em 1949 com 32 países membros. Foi criada no pós-guerra e continua a ser o principal mecanismo de defesa coletiva do mundo ocidental.
             </p>
@@ -59,7 +59,7 @@ function NatoPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://www.nato.int/" target="_blank" rel="noreferrer">
                 Site oficial da NATO

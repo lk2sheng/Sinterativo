@@ -27,28 +27,28 @@ function AntonioSeguroPage() {
           style={{ '--person-flag-image': `url(${flag})` }}
         >
           <p className="eyebrow">Portuguese Republic</p>
-          <h1>Antonio Seguro</h1>
+          <h1>António Seguro</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Trump">
           <figure className="person-figure">
-            <img src={imgFrente} alt="Figura frente da peca Trump" />
-            <figcaption>Fig1 : frente da peca</figcaption>
+            <img src={imgFrente} alt="Figura frente da peça Trump" />
+            <figcaption>Fig1 : frente da peça</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Trump" />
-            <figcaption>Fig2 : lado esquerdo da peca</figcaption>
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peça Trump" />
+            <figcaption>Fig2 : lado esquerdo da peça</figcaption>
           </figure>
 
           {/* <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca Trump" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
+            <img src={placeholderFigureImage} alt="Figura traseira da peça Trump" />
+            <figcaption>Fig3 : traseira da peça</figcaption>
           </figure> */}
 
           <figure className="person-figure">
-            <img src={imgDireita} alt="Figura lado direito da peca Trump" />
-            <figcaption>Fig4 : lado direito da peca</figcaption>
+            <img src={imgDireita} alt="Figura lado direito da peça Trump" />
+            <figcaption>Fig4 : lado direito da peça</figcaption>
           </figure>
         </section>
 
@@ -56,7 +56,7 @@ function AntonioSeguroPage() {
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
                 António Seguro é Presidente da República Portuguesa desde 2026. Foi secretário-geral do Partido Socialista, um partido de centro-esquerda, de 2011 a 2014, tendo regressado à política em 2025 para se candidatar às presidenciais.
             </p>
@@ -66,7 +66,7 @@ function AntonioSeguroPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://www.presidencia.pt/presidente-da-republica/o-presidente/biografia/" target="_blank" rel="noreferrer">
                 Nota biográfica do Presidente da República

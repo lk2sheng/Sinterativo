@@ -27,28 +27,28 @@ function AntonioCostaPage() {
           style={{ '--person-flag-image': `url(${flag})` }}
         >
           <p className="eyebrow">European Union</p>
-          <h1>Antonio Costa</h1>
+          <h1>António Costa</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Trump">
           <figure className="person-figure">
-            <img src={imgFrente} alt="Figura frente da peca Trump" />
-            <figcaption>Fig1 : frente da peca</figcaption>
+            <img src={imgFrente} alt="Figura frente da peça Trump" />
+            <figcaption>Fig1 : frente da peça</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Trump" />
-            <figcaption>Fig2 : lado esquerdo da peca</figcaption>
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peça Trump" />
+            <figcaption>Fig2 : lado esquerdo da peça</figcaption>
           </figure>
 
           {/* <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca Trump" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
+            <img src={placeholderFigureImage} alt="Figura traseira da peça Trump" />
+            <figcaption>Fig3 : traseira da peça</figcaption>
           </figure> */}
 
           <figure className="person-figure">
-            <img src={imgDireita} alt="Figura lado direito da peca Trump" />
-            <figcaption>Fig4 : lado direito da peca</figcaption>
+            <img src={imgDireita} alt="Figura lado direito da peça Trump" />
+            <figcaption>Fig4 : lado direito da peça</figcaption>
           </figure>
         </section>
 
@@ -56,7 +56,7 @@ function AntonioCostaPage() {
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               António Costa é Presidente do Conselho Europeu desde dezembro de 2024, cargo que ocupa até 2027. Foi primeiro-ministro de Portugal de 2015 a 2024, pelo Partido Socialista, um partido de centro-esquerda.
             </p>
@@ -66,7 +66,7 @@ function AntonioCostaPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://portugal.gov.pt/gc21/primeiro-ministro" target="_blank" rel="noreferrer">
                 Página oficial do Governo de Portugal

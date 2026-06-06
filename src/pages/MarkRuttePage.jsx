@@ -15,7 +15,7 @@ function MarkRuttePage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -26,22 +26,22 @@ function MarkRuttePage() {
           <h1>Mark Rutte</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Mark Rutte">
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Mark Rutte">
           <figure className="person-figure">
-            <img src={imgFrente} alt="Figura frente da peca Mark Rutte" />
-            <figcaption>Fig1 : frente da peca</figcaption>
+            <img src={imgFrente} alt="Figura frente da peça Mark Rutte" />
+            <figcaption>Fig1 : frente da peça</figcaption>
           </figure>
           <figure className="person-figure">
-            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Mark Rutte" />
-            <figcaption>Fig2 : lado esquerdo da peca</figcaption>
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peça Mark Rutte" />
+            <figcaption>Fig2 : lado esquerdo da peça</figcaption>
           </figure>
           {/* <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca Mark Rutte" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
+            <img src={placeholderFigureImage} alt="Figura traseira da peça Mark Rutte" />
+            <figcaption>Fig3 : traseira da peça</figcaption>
           </figure> */}
           <figure className="person-figure">
-            <img src={imgDireita} alt="Figura lado direito da peca Mark Rutte" />
-            <figcaption>Fig4 : lado direito da peca</figcaption>
+            <img src={imgDireita} alt="Figura lado direito da peça Mark Rutte" />
+            <figcaption>Fig4 : lado direito da peça</figcaption>
           </figure>
         </section>
 
@@ -49,7 +49,7 @@ function MarkRuttePage() {
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               Mark Rutte é secretário-geral da NATO desde outubro de 2024. Foi primeiro-ministro dos Países Baixos de 2010 a 2024, pelo VVD, um partido liberal de direita.
             </p>
@@ -59,7 +59,7 @@ function MarkRuttePage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://sicnoticias.pt/mundo/2024-06-26-quem-e-mark-rutte--o-perfil-do-proximo-secretario-geral-da-nato-abeed026" target="_blank" rel="noreferrer">
                 Nota biográfica na SIC Notícias

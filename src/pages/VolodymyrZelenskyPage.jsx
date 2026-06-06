@@ -13,7 +13,7 @@ function VolodymyrZelenskyPage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -24,18 +24,18 @@ function VolodymyrZelenskyPage() {
           <h1>Volodymyr Zelensky</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Volodymyr Zelensky">
-          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Volodymyr Zelensky" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Volodymyr Zelensky" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Volodymyr Zelensky" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
-          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Volodymyr Zelensky" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Volodymyr Zelensky">
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peça Volodymyr Zelensky" /><figcaption>Fig1 : frente da peça</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peça Volodymyr Zelensky" /><figcaption>Fig2 : lado esquerdo da peça</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peça Volodymyr Zelensky" /><figcaption>Fig3 : traseira da peça</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peça Volodymyr Zelensky" /><figcaption>Fig4 : lado direito da peça</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               Volodymyr Zelensky é presidente da Ucrânia desde 2019, pelo Servidor do Povo, um partido de centro. Tornou-se o rosto da resistência ucraniana após a invasão russa de fevereiro de 2022.
             </p>
@@ -45,7 +45,7 @@ function VolodymyrZelenskyPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://sicnoticias.pt/pais/2022-04-21-biografia-de-zelensky-publicada-em-portugal-a-17-de-maio" target="_blank" rel="noreferrer">
                 Biografia na SIC Notícias

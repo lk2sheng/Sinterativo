@@ -124,12 +124,12 @@ const teamMembers = [
   {
     name: 'Afonso Paulo',
     number: 'FC62238',
-    school: 'Faculdade de Ciencias',
+    school: 'Faculdade de Ciências',
   },
   {
     name: 'Kaisheng Li',
     number: 'FC60284',
-    school: 'Faculdade de Ciencias',
+    school: 'Faculdade de Ciências',
   },
   {
     name: 'Francisca Silva',
@@ -185,7 +185,7 @@ function HomePage() {
 
           <Section
             id="peoes"
-            title="Personagens dos peoes"
+            title="Personagens dos peões"
             aside={
               <dl className="fact-list">
                 {politicalNames.map(({ name, flag }) => (
@@ -289,7 +289,7 @@ function HomePage() {
                   Ver vídeo
                 </a>
                 <p>
-                  (Ainda nao disponivel)
+                  (Ainda não disponível)
                 </p>
               </div>
             </div>

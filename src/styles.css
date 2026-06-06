@@ -896,6 +896,7 @@ h2 {
 #interacao .interaction-photo {
   position: relative;
   width: 100%;
+  aspect-ratio: 1045 / 653;
   min-height: 22rem;
   border-radius: 28px;
   overflow: hidden;
@@ -908,6 +909,7 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -1015,13 +1017,21 @@ h2 {
   }
 
   #interacao .interaction-photo {
-    min-height: 18rem;
+    min-height: 0;
   }
 }
 
 @media (max-width: 760px) {
   #interacao h2 {
     white-space: normal;
+  }
+
+  #interacao .interaction-photo {
+    border-radius: 18px;
+  }
+
+  #interacao .interaction-photo img {
+    object-fit: contain;
   }
 }
 

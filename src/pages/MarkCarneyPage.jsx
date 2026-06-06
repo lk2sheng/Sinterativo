@@ -15,7 +15,7 @@ function MarkCarneyPage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -26,22 +26,22 @@ function MarkCarneyPage() {
           <h1>Mark Carney</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Mark Carney">
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Mark Carney">
           <figure className="person-figure">
-            <img src={imgFrente} alt="Figura frente da peca Mark Carney" />
-            <figcaption>Fig1 : frente da peca</figcaption>
+            <img src={imgFrente} alt="Figura frente da peça Mark Carney" />
+            <figcaption>Fig1 : frente da peça</figcaption>
           </figure>
           <figure className="person-figure">
-            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Mark Carney" />
-            <figcaption>Fig2 : lado esquerdo da peca</figcaption>
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peça Mark Carney" />
+            <figcaption>Fig2 : lado esquerdo da peça</figcaption>
           </figure>
           {/* <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca Mark Carney" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
+            <img src={placeholderFigureImage} alt="Figura traseira da peça Mark Carney" />
+            <figcaption>Fig3 : traseira da peça</figcaption>
           </figure> */}
           <figure className="person-figure">
-            <img src={imgDireita} alt="Figura lado direito da peca Mark Carney" />
-            <figcaption>Fig4 : lado direito da peca</figcaption>
+            <img src={imgDireita} alt="Figura lado direito da peça Mark Carney" />
+            <figcaption>Fig4 : lado direito da peça</figcaption>
           </figure>
         </section>
 
@@ -49,7 +49,7 @@ function MarkCarneyPage() {
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               Mark Carney é primeiro-ministro do Canadá desde março de 2025, pelo Partido Liberal, um partido de centro-esquerda. Foi anteriormente governador do Banco do Canadá e do Banco de Inglaterra.
             </p>
@@ -59,7 +59,7 @@ function MarkCarneyPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://expresso.pt/revista/fisga/2025-03-13-quem-e-mark-carney-o-economista-que-sucede-a-justin-trudeau-nos-comandos-do-canada-bf4d2b60" target="_blank" rel="noreferrer">
                 Nota biográfica Expresso

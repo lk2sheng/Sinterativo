@@ -13,7 +13,7 @@ function UnionEuropeiaPage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -21,21 +21,21 @@ function UnionEuropeiaPage() {
       <main className="person-page">
         <section className="person-hero person-hero-flag" id="top" style={{ '--person-flag-image': `url(${flag})` }}>
           <p className="eyebrow">European Union</p>
-          <h1>Uniao Europeia</h1>
+          <h1>União Europeia</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Uniao Europeia">
-          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Uniao Europeia" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Uniao Europeia" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Uniao Europeia" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
-          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Uniao Europeia" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça União Europeia">
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peça União Europeia" /><figcaption>Fig1 : frente da peça</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peça União Europeia" /><figcaption>Fig2 : lado esquerdo da peça</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peça União Europeia" /><figcaption>Fig3 : traseira da peça</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peça União Europeia" /><figcaption>Fig4 : lado direito da peça</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               A União Europeia é um bloco político e económico de 27 países europeus, fundado nos anos 50. Os seus membros partilham um mercado único e uma moeda comum, o euro.
             </p>
@@ -45,7 +45,7 @@ function UnionEuropeiaPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://european-union.europa.eu/index_pt" target="_blank" rel="noreferrer">
                 Site oficial da União Europeia

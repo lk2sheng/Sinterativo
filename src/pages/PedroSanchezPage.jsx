@@ -13,7 +13,7 @@ function PedroSanchezPage() {
         <nav className="nav-links">
           <a className="back-link" href="./">Voltar</a>
           <a href="#figuras">Figuras</a>
-          <a href="#biografia">Descricao</a>
+          <a href="#biografia">Descrição</a>
           <a href="#links">Mais</a>
         </nav>
       </header>
@@ -21,21 +21,21 @@ function PedroSanchezPage() {
       <main className="person-page">
         <section className="person-hero person-hero-flag" id="top" style={{ '--person-flag-image': `url(${flag})` }}>
           <p className="eyebrow">Kingdom of Spain</p>
-          <h1>Pedro Sanchez</h1>
+          <h1>Pedro Sánchez</h1>
         </section>
 
-        <section className="person-figures" id="figuras" aria-label="Figuras da peca Pedro Sanchez">
-          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Pedro Sanchez" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Pedro Sanchez" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Pedro Sanchez" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
-          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Pedro Sanchez" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+        <section className="person-figures" id="figuras" aria-label="Figuras da peça Pedro Sánchez">
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peça Pedro Sánchez" /><figcaption>Fig1 : frente da peça</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peça Pedro Sánchez" /><figcaption>Fig2 : lado esquerdo da peça</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peça Pedro Sánchez" /><figcaption>Fig3 : traseira da peça</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peça Pedro Sánchez" /><figcaption>Fig4 : lado direito da peça</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
           <div className="person-section-index">01</div>
           <div>
             <p className="eyebrow">Quem sou eu?</p>
-            <h2>Descricao da peca</h2>
+            <h2>Descrição da peça</h2>
             <p>
               Pedro Sánchez é presidente do governo de Espanha desde 2018, pelo PSOE, um partido de centro-esquerda. Governa em coligação com o Sumar, um partido de esquerda.
             </p>
@@ -45,7 +45,7 @@ function PedroSanchezPage() {
         <section className="person-links" id="links">
           <div className="person-section-index">02</div>
           <div>
-            <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
+            <p className="eyebrow">Para mais informações visite os seguintes sites</p>
             <div className="person-link-grid">
               <a href="https://www.imdb.com/pt/name/nm6793344/bio/" target="_blank" rel="noreferrer">
                 Biografia na IMDb
