@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/PutinFrente.png'
+import imgEsquerda from '../../pioes/PutinEsquerda.png'
+import imgDireita from '../../pioes/PutinDireita.png'
 import flag from '../../bandeira/russia.png';
 
 function PutinPage() {
@@ -22,10 +25,9 @@ function PutinPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Vladimir Putin">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Vladimir Putin" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Vladimir Putin" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Vladimir Putin" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Vladimir Putin" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Vladimir Putin" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Vladimir Putin" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Vladimir Putin" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +46,12 @@ function PutinPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://portugal.mid.ru/pt/russia/presidente/" target="_blank" rel="noreferrer">
+                Site oficial da Rússia
+              </a>
+              <a href="https://www.imdb.com/pt/name/nm1269884/bio/" target="_blank" rel="noreferrer">
+                Biografia na IMDb
+              </a>
             </div>
           </div>
         </section>

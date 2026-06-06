@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/SanchezFrente.png'
+import imgEsquerda from '../../pioes/SanchezEsquerda.png'
+import imgDireita from '../../pioes/SanchezDireita.png'
 import flag from '../../bandeira/spain.png';
 
 function PedroSanchezPage() {
@@ -22,10 +25,10 @@ function PedroSanchezPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Pedro Sanchez">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Pedro Sanchez" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Pedro Sanchez" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Pedro Sanchez" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Pedro Sanchez" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Pedro Sanchez" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Pedro Sanchez" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Pedro Sanchez" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Pedro Sanchez" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +47,12 @@ function PedroSanchezPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://www.imdb.com/pt/name/nm6793344/bio/" target="_blank" rel="noreferrer">
+                Biografia na IMDb
+              </a>
+              <a href="https://pt.wikipedia.org/wiki/Pedro_Sánchez" target="_blank" rel="noreferrer">
+                Biografia na Wikipédia
+              </a>
             </div>
           </div>
         </section>

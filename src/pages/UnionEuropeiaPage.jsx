@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/UEuropaFrente.png'
+import imgEsquerda from '../../pioes/UEuropaEsquerda.png'
+import imgDireita from '../../pioes/UEuropaDireita.png'
 import flag from '../../bandeira/europian.png';
 
 function UnionEuropeiaPage() {
@@ -22,10 +25,10 @@ function UnionEuropeiaPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Uniao Europeia">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Uniao Europeia" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Uniao Europeia" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Uniao Europeia" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Uniao Europeia" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Uniao Europeia" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Uniao Europeia" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Uniao Europeia" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Uniao Europeia" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +47,12 @@ function UnionEuropeiaPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://european-union.europa.eu/index_pt" target="_blank" rel="noreferrer">
+                Site oficial da União Europeia
+              </a>
+              <a href="https://european-union.europa.eu/principles-countries-history/eu-countries_pt" target="_blank" rel="noreferrer">
+                Descrição dos países membros no site oficial
+              </a>
             </div>
           </div>
         </section>

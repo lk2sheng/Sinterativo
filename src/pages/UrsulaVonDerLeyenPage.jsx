@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/UrsulaFrente.png'
+import imgEsquerda from '../../pioes/UrsulaEsquerda.png'
+import imgDireita from '../../pioes/UrsulaDireita.png'
 import flag from '../../bandeira/europian.png';
 
 function UrsulaVonDerLeyenPage() {
@@ -22,10 +25,10 @@ function UrsulaVonDerLeyenPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Ursula von der Leyen">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Ursula von der Leyen" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Ursula von der Leyen" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Ursula von der Leyen" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Ursula von der Leyen" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Ursula von der Leyen" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Ursula von der Leyen" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Ursula von der Leyen" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Ursula von der Leyen" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +47,12 @@ function UrsulaVonDerLeyenPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://expresso.pt/revista/2023-03-03-A-maquina-Von-der-Leyen-o-perfil-da-maior-representante-do-poder-no-feminino-cf762c6d" target="_blank" rel="noreferrer">
+                Biografia no Expresso
+              </a>
+              <a href="https://sicnoticias.pt/mundo/2019-07-16-Von-der-Leyen-a-primeira-mulher-Presidente-da-Comissao-Europeia?fbclid=IwAR36f8QYebbmTk2zuSv59P8vJX_24j9w7hd-B5VQ3vru7j7Rm9aCP07IOOQ" target="_blank" rel="noreferrer">
+                Biografia na SIC Notícias
+              </a>
             </div>
           </div>
         </section>

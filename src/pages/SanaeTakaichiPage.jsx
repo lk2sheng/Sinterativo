@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/TakaichiFrente.png'
+import imgEsquerda from '../../pioes/TakaichiEsquerda.png'
+import imgDireita from '../../pioes/TakaichiDireita.png'
 import flag from '../../bandeira/japan.png';
 
 function SanaeTakaichiPage() {
@@ -22,10 +25,10 @@ function SanaeTakaichiPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Sanae Takaichi">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Sanae Takaichi" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Sanae Takaichi" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Sanae Takaichi" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Sanae Takaichi" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Sanae Takaichi" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Sanae Takaichi" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Sanae Takaichi" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Sanae Takaichi" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +47,12 @@ function SanaeTakaichiPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://expresso.pt/revista/fisga/2025-10-09-quem-e-sanae-takaichi-a-conservadora-que-quer-governar-o-japao-com-trabalho-muito-trabalho-f613c873" target="_blank" rel="noreferrer">
+                Biografia no Expresso
+              </a>
+              <a href="https://www.bbc.com/portuguese/articles/cvg9jlzp157o" target="_blank" rel="noreferrer">
+                Biografia na BBC
+              </a>
             </div>
           </div>
         </section>

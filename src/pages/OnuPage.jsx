@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/ONUFrente.png'
+import imgEsquerda from '../../pioes/ONUEsquerda.png'
+import imgDireita from '../../pioes/ONUDireita.png'
 import flag from '../../bandeira/unitedNation.png';
 
 function OnuPage() {
@@ -24,10 +27,10 @@ function OnuPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca ONU">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca ONU" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca ONU" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca ONU" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca ONU" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca ONU" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca ONU" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca ONU" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca ONU" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -46,8 +49,12 @@ function OnuPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://unric.org/pt/" target="_blank" rel="noreferrer">
+                Site oficial da ONU
+              </a>
+              <a href="https://www.un.org/pt/rio/recursos/conheca-a-onu" target="_blank" rel="noreferrer">
+                Descrição da ONU no site oficial
+              </a>
             </div>
           </div>
         </section>

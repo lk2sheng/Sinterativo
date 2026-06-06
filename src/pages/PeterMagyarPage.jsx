@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/VenturaFrente.png'
+import imgEsquerda from '../../pioes/VenturaEsquerda.png'
+import imgDireita from '../../pioes/VenturaDireita.png'
 import flag from '../../bandeira/hungary.png';
 
 function PeterMagyarPage() {
@@ -44,8 +47,12 @@ function PeterMagyarPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://www.rtp.pt/noticias/mundo/quem-e-peter-magyar-o-antigo-homem-de-orban-que-venceu-as-eleicoes-legislativas-na-hungria_n1733496" target="_blank" rel="noreferrer">
+                Quem é Peter Magyar?
+              </a>
+              <a href="https://cnnportugal.iol.pt/hungria/eleicoes/quem-e-peter-magyar-o-ex-aliado-que-tirou-o-poder-a-orban/20260412/69dc07d4d34e28842c82d1be" target="_blank" rel="noreferrer">
+                Biografia na CNN Portugal
+              </a>
             </div>
           </div>
         </section>

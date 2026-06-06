@@ -233,31 +233,26 @@ function HomePage() {
             <div className="manual-instructions">
               <ol>
                 <li>
+                  <span>Escolhe</span>
                   <p>
-                    Coloca no tabuleiro as peças ao qual atribuis a maior
-                    relevância consoante a tua visão política pessoal. A
-                    quantidade de peças que usares está inteiramente à tua
-                    liberdade, dando-te a possibilidade de escolher o que mais
-                    se adequa à tua opinião!
+                    Seleciona as pecas que consideras mais relevantes para a tua
+                    visao politica.
                   </p>
                 </li>
 
                 <li>
+                  <span>Posiciona</span>
                   <p>
-                    Após teres escolhido as peças, deves dispô-las no
-                    tabuleiro consoante o nível de importância que lhes
-                    atribuis, sendo a linha da frente a que corresponde à
-                    maior importância e a detrás à de menor.
+                    Organiza-as no tabuleiro por importancia: mais importantes
+                    na frente, menos importantes atras.
                   </p>
                 </li>
 
                 <li>
+                  <span>Regista</span>
                   <p>
-                    Por fim, terás a possibilidade de registar a tua versão do
-                    tabuleiro através de uma fotografia analógica que, a
-                    seguir a tirares, colocas no quadro de cortiça disposto
-                    ao lado do mesmo, para partilhar a tua opinião, com a
-                    possibilidade de o fazeres anonimamente.
+                    Fotografa a tua versao e coloca-a no quadro para partilhar a
+                    tua opiniao, mesmo anonimamente.
                   </p>
                 </li>
               </ol>
@@ -271,7 +266,7 @@ function HomePage() {
             <div className="interaction-grid">
               <div className="interaction-photo">
                 <img
-                  src="/images/polaroid-wall.jpg"
+                  src="../../picture/fototabExperiencia.png"
                   alt="Fotografias dos participantes"
                 />
               </div>
@@ -290,7 +285,7 @@ function HomePage() {
                   rel="noreferrer"
                   className="btn"
                 >
-                  Ver vídeo
+                  Ver vídeo (ainda nao disponivel)
                 </a>
               </div>
             </div>
@@ -327,3 +322,4 @@ function HomePage() {
 }
 
 export default HomePage;
+

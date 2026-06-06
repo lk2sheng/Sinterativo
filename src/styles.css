@@ -508,6 +508,71 @@ h2 {
   font-weight: 500;
 }
 
+#manual .section-body {
+  grid-template-columns: 1fr;
+  max-width: 88rem;
+}
+
+#manual .section-copy {
+  max-width: none;
+}
+
+#manual h2 {
+  max-width: 12ch;
+}
+
+.manual-instructions ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(0.9rem, 2vw, 1.4rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: manual-step;
+}
+
+.manual-instructions li {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 0.85rem;
+  min-height: 13rem;
+  padding: clamp(1.1rem, 2vw, 1.5rem);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.075), transparent 58%),
+    rgba(255, 255, 255, 0.025);
+  counter-increment: manual-step;
+}
+
+.manual-instructions li::before {
+  content: counter(manual-step, decimal-leading-zero);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.manual-instructions span {
+  color: var(--white);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.1;
+}
+
+.manual-instructions p {
+  color: var(--muted);
+  font-size: clamp(0.98rem, 1.2vw, 1.08rem);
+  line-height: 1.65;
+}
+
 .section-aside {
   min-height: 14rem;
   padding-top: 0.6rem;
@@ -1055,6 +1120,10 @@ h2 {
   overflow-x: auto;
 }
 
+.person-figures:has(.person-figure:nth-child(3):last-child) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .person-figure {
   display: grid;
   grid-template-rows: minmax(16rem, 24vw) auto;
@@ -1248,6 +1317,18 @@ h2 {
 
   .person-figures {
     grid-template-columns: repeat(4, minmax(14rem, 70vw));
+  }
+
+  .person-figures:has(.person-figure:nth-child(3):last-child) {
+    grid-template-columns: repeat(3, minmax(14rem, 70vw));
+  }
+
+  .manual-instructions ol {
+    grid-template-columns: 1fr;
+  }
+
+  .manual-instructions li {
+    min-height: 0;
   }
 
   .person-bio,

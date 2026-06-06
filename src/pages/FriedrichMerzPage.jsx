@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/MerzFrente.png'
+import imgEsquerda from '../../pioes/MerzEsquerda.png'
+import imgDireita from '../../pioes/MerzDireita.png'
 import flag from '../../bandeira/germany.png';
 
 function FriedrichMerzPage() {
@@ -29,22 +32,22 @@ function FriedrichMerzPage() {
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura frente da peca Trump" />
+            <img src={imgFrente} alt="Figura frente da peca Trump" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Trump" />
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Trump" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
 
-          <figure className="person-figure">
+          {/* <figure className="person-figure">
             <img src={placeholderFigureImage} alt="Figura traseira da peca Trump" />
             <figcaption>Fig3 : traseira da peca</figcaption>
-          </figure>
+          </figure> */}
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado direito da peca Trump" />
+            <img src={imgDireita} alt="Figura lado direito da peca Trump" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>
@@ -65,11 +68,11 @@ function FriedrichMerzPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">
-                link 1
+              <a href="https://www.bundesregierung.de/breg-en/news/friedrich-merz-2341938" target="_blank" rel="noreferrer">
+                Nota biográfica do chanceler da Alemanha
               </a>
-              <a href="" target="_blank" rel="noreferrer">
-                link 2
+              <a href="https://expresso.pt/revista/fisga/2025-02-25-quem-e-friedrich-merz-o-fanatico-da-aviacao-que-tera-de-pilotar-a-alemanha-na-tormenta-politica-d01008ce" target="_blank" rel="noreferrer">
+                Biografia no Expresso
               </a>
             </div>
 

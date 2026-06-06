@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/KimFrente.png'
+import imgEsquerda from '../../pioes/KimEsquerda.png'
+import imgDireita from '../../pioes/KimDireita.png'
 import flag from '../../bandeira/northKorean.png';
 
 function KimJongUnPage() {
@@ -29,22 +32,22 @@ function KimJongUnPage() {
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Kim Jong Un">
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura frente da peca Kim Jong Un" />
+            <img src={imgFrente} alt="Figura frente da peca Kim Jong Un" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Kim Jong Un" />
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Kim Jong Un" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
 
-          <figure className="person-figure">
+          {/* <figure className="person-figure">
             <img src={placeholderFigureImage} alt="Figura traseira da peca Kim Jong Un" />
             <figcaption>Fig3 : traseira da peca</figcaption>
-          </figure>
+          </figure> */}
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado direito da peca Kim Jong Un" />
+            <img src={imgDireita} alt="Figura lado direito da peca Kim Jong Un" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>
@@ -65,11 +68,11 @@ function KimJongUnPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">
-                link 1
+              <a href="https://www.rtp.pt/noticias/mundo/kim-jong-il-o-lider-da-unica-dinastia-comunista-da-historia_n510861" target="_blank" rel="noreferrer">
+                Nota biográfica RTP
               </a>
-              <a href="" target="_blank" rel="noreferrer">
-                link 2
+              <a href="https://korea-dpr.com/kimjongun/" target="_blank" rel="noreferrer">
+                Biografia no site oficial
               </a>
             </div>
           </div>

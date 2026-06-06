@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/CoelhoFrente.png'
+import imgEsquerda from '../../pioes/CoelhoEsquerda.png'
+import imgDireita from '../../pioes/CoelhoDireita.png'
 import flag from '../../bandeira/portugal.png';
 
 function PassosCoelhoPage() {
@@ -22,10 +25,10 @@ function PassosCoelhoPage() {
         </section>
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Pedro Passos Coelho">
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura frente da peca Pedro Passos Coelho" /><figcaption>Fig1 : frente da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Pedro Passos Coelho" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Pedro Passos Coelho" /><figcaption>Fig3 : traseira da peca</figcaption></figure>
-          <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura lado direito da peca Pedro Passos Coelho" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgFrente} alt="Figura frente da peca Pedro Passos Coelho" /><figcaption>Fig1 : frente da peca</figcaption></figure>
+          <figure className="person-figure"><img src={imgEsquerda} alt="Figura lado esquerdo da peca Pedro Passos Coelho" /><figcaption>Fig2 : lado esquerdo da peca</figcaption></figure>
+          {/* <figure className="person-figure"><img src={placeholderFigureImage} alt="Figura traseira da peca Pedro Passos Coelho" /><figcaption>Fig3 : traseira da peca</figcaption></figure> */}
+          <figure className="person-figure"><img src={imgDireita} alt="Figura lado direito da peca Pedro Passos Coelho" /><figcaption>Fig4 : lado direito da peca</figcaption></figure>
         </section>
 
         <section className="person-bio" id="biografia">
@@ -44,8 +47,12 @@ function PassosCoelhoPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://www.historico.portugal.gov.pt/pt/o-governo/arquivo-historico/governos-constitucionais/gc20/primeiro-ministro/pm/conheca-a-equipa/primeiro-ministro/pedro-passos-coelho.aspx" target="_blank" rel="noreferrer">
+                Biografia na Histórico de Portugal
+              </a>
+              <a href="https://pt.wikipedia.org/wiki/Pedro_Passos_Coelho" target="_blank" rel="noreferrer">
+                Biografia na Wikipédia
+              </a>
             </div>
           </div>
         </section>

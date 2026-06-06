@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/TrumpFrente.png'
+import imgEsquerda from '../../pioes/TrumpEsquerda.png'
+import imgDireita from '../../pioes/TrumpDireita.png'
 import usaFlag from '../../bandeira/usa.png';
 
 function TrumpPage() {
@@ -29,22 +32,17 @@ function TrumpPage() {
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Trump">
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura frente da peca Trump" />
+            <img src={imgFrente} alt="Figura frente da peca Trump" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Trump" />
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Trump" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
 
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura traseira da peca Trump" />
-            <figcaption>Fig3 : traseira da peca</figcaption>
-          </figure>
-
-          <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado direito da peca Trump" />
+            <img src={imgDireita} alt="Figura lado direito da peca Trump" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>

@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/RutteFrente.png'
+import imgEsquerda from '../../pioes/RutteEsquerda.png'
+import imgDireita from '../../pioes/RutteDireita.png'
 import flag from '../../bandeira/nato.jpg';
 
 function MarkRuttePage() {
@@ -25,19 +28,19 @@ function MarkRuttePage() {
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Mark Rutte">
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura frente da peca Mark Rutte" />
+            <img src={imgFrente} alt="Figura frente da peca Mark Rutte" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Mark Rutte" />
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Mark Rutte" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
-          <figure className="person-figure">
+          {/* <figure className="person-figure">
             <img src={placeholderFigureImage} alt="Figura traseira da peca Mark Rutte" />
             <figcaption>Fig3 : traseira da peca</figcaption>
-          </figure>
+          </figure> */}
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado direito da peca Mark Rutte" />
+            <img src={imgDireita} alt="Figura lado direito da peca Mark Rutte" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>
@@ -58,8 +61,12 @@ function MarkRuttePage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://sicnoticias.pt/mundo/2024-06-26-quem-e-mark-rutte--o-perfil-do-proximo-secretario-geral-da-nato-abeed026" target="_blank" rel="noreferrer">
+                Nota biográfica na SIC Notícias
+              </a>
+              <a href="https://expresso.pt/internacional/2024-06-27-mark-rutte-o-novo-secretario-geral-da-nato-diz-se-um-conector-e-vai-precisar-dessa-qualidade-no-seu-novo-emprego-6dc5f413" target="_blank" rel="noreferrer">
+                Biografia no Expresso
+              </a>
             </div>
           </div>
         </section>

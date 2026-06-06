@@ -1,5 +1,8 @@
 import Footer from '../components/Footer.jsx';
 import placeholderFigureImage from '../../picture/imagem_branca.png';
+import imgFrente from '../../pioes/KhameneiFrente.png'
+import imgEsquerda from '../../pioes/KhameneiEsquerda.png'
+import imgDireita from '../../pioes/KhameneiDireita.png'
 import flag from '../../bandeira/iran.png';
 
 function MojtabaKhameneiPage() {
@@ -25,19 +28,19 @@ function MojtabaKhameneiPage() {
 
         <section className="person-figures" id="figuras" aria-label="Figuras da peca Mojtaba Khamenei">
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura frente da peca Mojtaba Khamenei" />
+            <img src={imgFrente} alt="Figura frente da peca Mojtaba Khamenei" />
             <figcaption>Fig1 : frente da peca</figcaption>
           </figure>
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado esquerdo da peca Mojtaba Khamenei" />
+            <img src={imgEsquerda} alt="Figura lado esquerdo da peca Mojtaba Khamenei" />
             <figcaption>Fig2 : lado esquerdo da peca</figcaption>
           </figure>
-          <figure className="person-figure">
+          {/* <figure className="person-figure">
             <img src={placeholderFigureImage} alt="Figura traseira da peca Mojtaba Khamenei" />
             <figcaption>Fig3 : traseira da peca</figcaption>
-          </figure>
+          </figure> */}
           <figure className="person-figure">
-            <img src={placeholderFigureImage} alt="Figura lado direito da peca Mojtaba Khamenei" />
+            <img src={imgDireita} alt="Figura lado direito da peca Mojtaba Khamenei" />
             <figcaption>Fig4 : lado direito da peca</figcaption>
           </figure>
         </section>
@@ -58,8 +61,12 @@ function MojtabaKhameneiPage() {
           <div>
             <p className="eyebrow">Para mais informacoes visite os seguintes sites</p>
             <div className="person-link-grid">
-              <a href="" target="_blank" rel="noreferrer">link 1</a>
-              <a href="" target="_blank" rel="noreferrer">link 2</a>
+              <a href="https://pt.euronews.com/2026/03/09/quem-e-mojtaba-khamenei-de-herdeiro-do-pai-a-lider-supremo-do-irao" target="_blank" rel="noreferrer">
+                Nota biográfica Euronews
+              </a>
+              <a href="https://www.jornaldenegocios.pt/economia/detalhe/quem-e-mojtaba-khamenei-o-novo-lider-supremo-do-irao" target="_blank" rel="noreferrer">
+                Biografia na Jornal de Negócios
+              </a>
             </div>
           </div>
         </section>
