@@ -306,7 +306,7 @@ function HomePage() {
             </p>
           </Section> */}
 
-          <section className="team-block reveal" aria-label="Sobre o grupo">
+          <section id="grupo" className="team-block reveal" aria-label="Sobre o grupo">
             <h2>Sobre o grupo</h2>
             <ol className="team-list">
               {teamMembers.map(({ name, number, school }) => (

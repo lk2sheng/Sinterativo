@@ -9,7 +9,7 @@ function Header() {
         {/* <a href="#frases">Frases</a> */}
         <a href="#manual">Manual</a>
         <a href="#interacao">Interação</a>
-        <a href="#exposicao">Exposição</a>
+        <a href="#grupo">Sobre o grupo</a>
       </nav>
     </header>
   );
