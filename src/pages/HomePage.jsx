@@ -278,7 +278,7 @@ function HomePage() {
                   tirando uma fotografia com a Polaroid e cola-a no quadro da exposição.
                 </p>
 
-                <h3>Vídeo de demonstração</h3>
+                {/* <h3>Vídeo de demonstração</h3>
 
                 <a
                   href="https://youtube.com/..."
@@ -290,7 +290,7 @@ function HomePage() {
                 </a>
                 <p>
                   (Ainda não disponível)
-                </p>
+                </p> */}
               </div>
             </div>
           </Section>
